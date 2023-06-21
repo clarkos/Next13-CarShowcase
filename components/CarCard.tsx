@@ -4,8 +4,8 @@ import { useState } from "react";
 import Image from "next/image";
 import CustomButton from "./CustomButton";
 import CarDetails from "./CarDetails";
-import { CarProps } from "@/types";
-import { calculateCarRent, generateImageUrl } from "@/utils";
+import { CarProps } from "@types";
+import { calculateCarRent, generateImageUrl } from "@utils";
 
 interface CarCardProps {
   car: CarProps;

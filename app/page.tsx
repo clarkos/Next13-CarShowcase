@@ -1,9 +1,8 @@
 "use client"
 import React, { useEffect, useState } from "react";
-import { CarCard, CustomFilter, Hero, SearchBar, ShowMore } from "@/components";
-import { CarProps } from "@/types";
-import { fetchCars } from "@/utils";
-import { fuels, yearsOfProduction } from "@/constants";
+import { CarCard, CustomFilter, Hero, SearchBar, ShowMore } from "@components";
+import { fetchCars } from "@utils";
+import { fuels, yearsOfProduction } from "@constants";
 import Image from "next/image";
 
 export default function Home() {

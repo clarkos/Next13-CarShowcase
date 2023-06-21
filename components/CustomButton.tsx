@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { CustomButtonPros } from "@/types";
+import { CustomButtonPros } from "@types";
 function CustomButton({
   title,
   btnType,

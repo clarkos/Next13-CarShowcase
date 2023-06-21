@@ -1,8 +1,8 @@
 "use client";
 
-import { ShowMoreProps } from "@/types";
+import { ShowMoreProps } from "@types";
 import React from "react";
-import { CustomButton } from '@/components';
+import { CustomButton } from '@components';
 
 function ShowMore({ pageNumber, isNext, setLimit }: ShowMoreProps) {
 
