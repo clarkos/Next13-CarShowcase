@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import SearchManufacturer from "./SearchManufacturer";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
+// import { useRouter } from "next/navigation";
 
 const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
   <button type="submit" className={`-ml-3 z-10 ${otherClasses}`}>
@@ -17,10 +17,10 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
   </button>
 );
 
-function SearchBar({ setManufacturer, setModel }) {
+function SearchBar({ setManufacturer, setModel }: any) {
   const [searchManufacturer, setSearchManufacturer] = useState("");
   const [searchModel, setSearchModel] = useState("");
-  const router = useRouter();
+  // const router = useRouter();
 
   const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
